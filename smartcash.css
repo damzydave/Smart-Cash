@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    padding: 15px 1.5em;
+}
+.heading li a{
+    text-decoration: none;
+    color: black;
+    /* font-size: larger; */
+    font-weight: bold;
+}
+.heading li  :hover{
+    transition: all 1s;
+    color: rgb(228, 41, 41);
+}
+.heading{
+    display: flex;
+    list-style: none;
+    padding: 2em;
+    /* justify-content: space-between; */
+    gap: 1.2em;
+    font-family: sans-serif;
+}
+.head-2{
+    background-color: #fff;
+    display: flex;
+}
+.download{
+    width: 45%;
+    padding: 1em 30px;
+}
+.download h2{
+    font-size: 45px;
+    padding: 0.3em 5px;
+    font-family:'trebuchet MS';
+}
+.dial{
+    display: flex;
+    gap: 0.5em;
+    font-family: 'trebuchet MS';
+    padding: 10px 5px;
+}
+.dial h3{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+.dial h5{
+    color: rgb(55, 178, 226);
+    font-size: 25px;
+}
+.app{
+    background-color: black;
+    padding: 9px 25px;
+    border-radius: 100px;
+    border: none;
+}
+.app a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+}
+.img{
+    gap: 2em;
+    padding: 1em 10px;
+}
